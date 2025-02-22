@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class=" py-4">
+
+  <!-- Header -->
+
+  <nav class="navbar navbar-expand-md border-body" aria-label="Fourth navbar example">
+    <div class="container">
+      <a class="navbar-brand" href="#">Expand at md</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Página inicial</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sobre mim</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Projetos</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Publicações</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link">
+                <div class="visually-hidden">X</div><i class="fa-brands fa-x-twitter"></i>
+              </a></li>
+            <li class="nav-item"><a href="#" class="nav-link">
+                <div class="visually-hidden">Instaggram</div><i class="fa-brands fa-instagram"></i>
+              </a></li>
+            <li class="nav-item"><a href="#" class="nav-link">
+                <div class="visually-hidden">YouTube</div><i class="fa-brands fa-youtube"></i>
+              </a></li>
+            <li class="nav-item"><a href="#" class="nav-link">
+                <div class="visually-hidden">LinkedIn</div><i class="fa-brands fa-linkedin"></i>
+              </a></li>
+          </ul>
+          <!-- <form role="search">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search" spellcheck="false" data-ms-editor="true" wfd-id="id3">
+      </form> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Header -->
+
+  <main>
+    <!-- Banner -->
+    <section class="intro border-top border-bottom py-4 bg-body-tertiary rounded-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <figure class="mb-4 mb-md-0">
+              <img class="rounded img-fluid object-fit-cover"
+                src="https://images.unsplash.com/photo-1738363436173-0b49cd20dea8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="...">
+            </figure>
+          </div>
+          <div class="col-12 d-flex justify-content-center align-items-start flex-column col-md-8">
+            <h1 class="display-5 fw-light">Olá, sou Francisco 🦾</h1>
+            <p class="col-12 col-md-10 lead fs-4">Humanidade, acessibilidade, inclusão e diversidade.</p>
+            <hr class="col-10 my-3" style="height: 1px;">
+            <p class="col-12 col-md-10 fw-semibold">Bem-vindo ao meu espaço profissional! Sou pesquisador e professor na
+              área de acessibilidade e inclusão.</p>
+            <p class="col-12 col-md-10">Meu trabalho busca quebrar barreiras e criar soluções inovadoras para um mundo
+              mais acessível. Explore meus projetos e publicações para conhecer mais sobre minha trajetória.</p>
+            <div class="d-flex">
+              <a href="#projetos" class="btn btn-default">Projetos</a>
+              <a href="#publicacoes" class="mx-md-3 my-3 my-md-0 btn btn-outline btn-outline-primary">Publicações</a>
+              <a href="#blog" class="btn btn-link">Blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner -->
+
+    <!-- Areas -->
+    <section class="areas">
+      <div class="container">
+        <nav class="container align-items-center d-flex justify-content-center">
+          <a href="#" class="p-2 m-5 d"><i class="mb-3 fa-solid fa-universal-access"></i>Acessibilidade</a>
+          <a href="#" class="p-2 m-5 d"><i class="mb-3 fa-brands fa-accessible-icon"></i>Inclusão</a>
+          <a href="#" class="p-2 m-5 d"><i class="mb-3 fa-solid fa-heart"></i>Diversidade</a>
+          <a href="#" class="p-2 m-5 d"><i class="mb-3 fa-solid fa-robot"></i>Tecnologia</a>
+          <a href="#" class="p-2 m-5 d"><i class="mb-3 fa-solid fa-graduation-cap"></i>Educação</a>
+          <a href="#" class="p-2 m-5 d"><i class="mb-3 fa-solid fa-gamepad"></i>Jogos</a>
+        </nav>
+      </div>
+    </section>
+    <!-- Areas -->
+    <div class="my-4"></div>
+    <!-- Projetos -->
+    <section class="projetos">
+      <div class="container">
+        <header>
+          <h2 class="heading">Projetos</h2>
+          <div class="subheading">Todos os projetos voltados à melhoria da acessibilidade em diferentes áreas, como
+            educação e tecnologia assistiva.</div>
+        </header>
+        <div class="my-5"></div>
+        <div class="row">
+
+          <div class="col-12 col-md">
+            <div class="card invensoes">
+              <div class="card-body">
+                <i class="fa-solid fa-flask-vial"></i>
+                <div class="card-content">
+                  <h3 class="card-title">Pesquisa científica</h3>
+                  <div class="card-text">
+                    <p>Trabalhos desenvolvidos em universidades e centros de pesquisa.</p>
+                    <p>Projetos acadêmicos sobre acessibilidade e inclusão.</p>
+                    <a href="#" class="card-link">Confira as pesquisas</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md">
+            <div class="card pesquisas">
+              <div class="card-body">
+                <i class="fa-solid fa-microchip"></i>
+                <div class="card-content">
+                  <h3 class="card-title">Invenções tecnológicas</h3>
+                  <div class="card-text">
+                    <p>Ferramentas e dispositivos desenvolvidos, como a caneta de desenho em relevo.</p>
+                    <p>Explicação do impacto dessas inovações na inclusão.</p>
+                    <a href="#" class="card-link">Conheça as ideias</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md">
+            <div class="card projetos">
+              <div class="card-body">
+                <i class="fa-solid fa-award"></i>
+                <div class="card-content">
+                  <h3 class="card-title">Projetos de inclusão e acessibilidade</h3>
+                  <div class="card-text">
+                    <p>Projetos voltados à melhoria da acessibilidade em diferentes áreas, como educação e tecnologia
+                      assistiva.</p>
+                    <a href="#" class="card-link">Acompanhe os projetos</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projetos -->
+    <div class="my-4"></div>
+    <!-- blog -->
+    <section class="blog">
+      <div class="container">
+        <header>
+          <h2 class="heading">Blog</h2>
+          <div class="subheading">Reflexões sobre acessibilidade, inclusão e tecnologia.</div>
+        </header>
+
+        <div class="my-5"></div>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card mb-3">
+              <img
+                src="https://images.unsplash.com/photo-1726137570036-cc7e8b1b58c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content.
+                  This content is a little bit longer.</p>
+                <a href="#" class="card-link">Confira as pesquisas</a>
+                <small class="mt-3 d-block text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3">
+              <img
+                src="https://images.unsplash.com/photo-1726137570036-cc7e8b1b58c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content.
+                  This content is a little bit longer.</p>
+                <a href="#" class="card-link">Confira as pesquisas</a>
+                <small class="mt-3 d-block text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3">
+              <img
+                src="https://images.unsplash.com/photo-1726137570036-cc7e8b1b58c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content.
+                  This content is a little bit longer.</p>
+                <a href="#" class="card-link">Confira as pesquisas</a>
+                <small class="mt-3 d-block text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3">
+              <img
+                src="https://images.unsplash.com/photo-1726137570036-cc7e8b1b58c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content.
+                  This content is a little bit longer.</p>
+                <a href="#" class="card-link">Confira as pesquisas</a>
+                <small class="mt-3 d-block text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- blog -->
+
+    <footer class="pt-5 mt-5 border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+              logo
+            </a>
+            <ul class="navbar-nav d-flex flex-row">
+              <li class="me-3 nav-item"><a href="#" class="nav-link">
+                  <div class="visually-hidden">X</div><i class="fa-brands fa-x-twitter"></i>
+                </a></li>
+              <li class="me-3 nav-item"><a href="#" class="nav-link">
+                  <div class="visually-hidden">Instaggram</div><i class="fa-brands fa-instagram"></i>
+                </a></li>
+              <li class="me-3 nav-item"><a href="#" class="nav-link">
+                  <div class="visually-hidden">YouTube</div><i class="fa-brands fa-youtube"></i>
+                </a></li>
+              <li class="me-3 nav-item"><a href="#" class="nav-link">
+                  <div class="visually-hidden">LinkedIn</div><i class="fa-brands fa-linkedin"></i>
+                </a></li>
+            </ul>
+          </div>
+  
+  
+          <div class="col mb-3">
+            <h3>Páginas do site</h3>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Página inicial</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sobre mim</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Projetos</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Publicações</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contato</a></li>
+            </ul>
+          </div>
+  
+          <div class="col mb-3">
+            <h3>Assuntos</h3>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Acessibilidade</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Inclusão</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Diversidade</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tecnologia</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Educação</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Jogos</a></li>
+            </ul>
+          </div>
+  
+          <div class="col mb-3">
+            <h3>Projetos recentes</h3>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nome do projeto</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nome do projeto</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nome do projeto</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nome do projeto</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nome do projeto</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nome do projeto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
